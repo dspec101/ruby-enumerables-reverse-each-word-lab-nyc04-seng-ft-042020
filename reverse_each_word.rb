@@ -8,7 +8,7 @@ def reverse_each_word (string)
        array2.join(" ")
 end
      
-def reverse_each_word (string)
+def reverse_each_word_two (string)
   new_array = []
    array = string.split
    array.collect do |string|
